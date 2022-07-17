@@ -1,12 +1,17 @@
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
-#include <mxml.h>
+
+#include "mxml-private.h"
+// #include <mxml.h>
+
 #include <stdbool.h>
 #include <stdint.h>
 #include <sys/stat.h>
 #include <string.h>
 #include <utils.h>
+
+
 
 
 //First 5 bytes is MD5 hash of "NaturalPoint"
